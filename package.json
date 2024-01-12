@@ -1,0 +1,16 @@
+{
+  "name": "domex-turn-server",
+  "version": "1.0.0",
+  "description": "TURN/STUN server for domex app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "David Scoffield, Valentin Giorgetti",
+  "license": "ISC",
+  "dependencies": {
+    "node-turn": "0.0.6"
+  }
+}
