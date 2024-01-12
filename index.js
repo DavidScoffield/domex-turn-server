@@ -7,6 +7,7 @@ const server = new Turn({
     username: 'password',
   },
   debugLevel: 'ALL',
+  externalIps: 'domer-turn-server.onrender.com',
 })
 
 server.start()
